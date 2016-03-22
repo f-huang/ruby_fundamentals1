@@ -5,8 +5,7 @@ name = gets.chomp
 puts "Hi #{name}!"
 
 # Step 2
-puts "What year were you born in?"
-year = gets.chomp
-year.to_i
+puts "How old are you?"
+age = gets.chomp.to_i
 
-puts "You were born in #{year}."
+puts "You were born in #{2016 - age}"
